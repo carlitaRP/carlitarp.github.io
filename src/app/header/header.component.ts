@@ -28,7 +28,7 @@ export class HeaderComponent implements OnInit{
         // alert(data);
         this.name = data.name;
         this.titulo = data.titulo;
-        this.objetivo = data.objetivo;
+        this.objetivo = data.Objetivo;
         this.foto = data.foto;
         this.email = data.email;
         this.celular = data.celular;
