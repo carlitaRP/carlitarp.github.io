@@ -1,1 +1,14 @@
-<p>work-experience works!</p>
+<div class="work-experience">
+    <h2>{{ experience.title }}</h2>
+    <ul>
+      <li *ngFor="let job of experience.jobs">
+        <h3>{{ job.position }}</h3>
+        <p>{{ job.company }} - {{ job.city }}, {{ job.country }}</p>
+        <p>Fecha de inicio: {{ job.startDate }} - Fecha de fin: {{ job.endDate }}</p>
+        <h4>Logros:</h4>
+        <ul>
+          <li *ngFor="let achievement of job.achievements">{{ achievement }}</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
