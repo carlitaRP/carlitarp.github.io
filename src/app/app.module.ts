@@ -8,13 +8,15 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 
 import { HttpClientModule } from '@angular/common/http';
 import { SkillsComponent } from './skills/skills.component';
+import { CertificatesComponent } from './certificates/certificates/certificates.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     WorkExperienceComponent,
-    SkillsComponent
+    SkillsComponent,
+    CertificatesComponent
   ],
   imports: [
     BrowserModule,
